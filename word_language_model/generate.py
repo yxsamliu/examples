@@ -4,6 +4,8 @@
 # This file generates new sentences sampled from the language model
 #
 ###############################################################################
+import codecs
+from io import open
 
 import argparse
 

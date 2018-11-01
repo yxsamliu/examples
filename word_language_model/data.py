@@ -1,5 +1,7 @@
 import os
 import torch
+import codecs
+from io import open
 
 class Dictionary(object):
     def __init__(self):
