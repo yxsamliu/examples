@@ -52,7 +52,7 @@ if __name__ == '__main__':
     # use LBFGS as optimizer since we can load the whole data to train
     optimizer = optim.LBFGS(seq.parameters(), lr=0.8)
     #begin to train
-    for i in range(15):
+    for i in range(1):
         print('STEP: ', i)
         def closure():
             optimizer.zero_grad()
